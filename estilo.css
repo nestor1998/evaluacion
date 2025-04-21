@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    background-color: #faeeee;
+    font-family: "Montserrat", sans-serif;
+    margin: 5%;
+    line-height: 1.6;
+}
+
+.contenedor_foto_perfil{
+    width: 300px;
+
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    color: #00eaff;
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url(./img/fotofondo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header figure img {
+    border-radius: 50%;
+    border: 5px solid rgb(25, 25, 239);
+    box-shadow: 0 0 20px 10px rgb(0, 0, 0);
+}
+
+header h1{
+    font-size: 1.2em;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+header h2{
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+.container {
+    background-color:blue;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #0ebaba;
+    margin: 5%;
+    box-shadow: 0 0 10px 10px white;
+}
+
+.contenedor_foto_perfil img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cabezera {
+    position: relative;
+}
+
+.nombre_puesto {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 4px 2px 2px rgb(4, 4, 4);
+}
+
+
+h3 {
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: rgba(17,126,115,01)
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+section hr {
+    border: 0;
+    height: 2px;
+    background: rgb(5, 163, 199);
+    margin: 10px  0;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul li{
+    padding: 5px 0;
+}
+
+
+address p{
+    margin: 5px;
+    
+}
+
+address a{
+    margin: 5px;
+    text-decoration: none;
+}
+
+i{
+    color: aqua;
+    margin-right: 8px;
+}
+
+article {
+    margin-bottom: 15px;
+}
